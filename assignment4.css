@@ -1,3 +1,28 @@
+LH{
+  color: blue;
+  font-weight: bold;
+}
+li{
+  color: black;
+  background: aqua;
+}
+#interests{
+  list-style-type: square; 
+  width: 20%;
+}
+#programmingLanguages{
+  list-style-type: square;
+  width: 30%;
+  margin-left: 30%;
+}
+ul{
+  float: left;
+}
+.placeholder{
+  background: white;
+  list-style: none;
+}
+
 .flexsearch-wrapper {
   height: auto;
   width: auto;

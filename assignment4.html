@@ -6,21 +6,28 @@
     <link rel="stylesheet" href="assignment4.css">
   </head>
   <body>
-    <h1 class="h1">Predictive Search</h1>
-
+    <h1 class="h1">Check Out "Matt's" Interests</h1>
     <div class="flexsearch">
       <div class="flexsearch-wrapper">
         <!-- You'll handle the form with js, so no need for method and action -->
-        <form class="flexsearch-form" id="mainForm">
+        <form class="flexsearch-form" id="mainForm" >
           <div class="flexsearch-input-wrapper">
-            <input class="flexsearch-input" type="search" placeholder="Enter URL to request data">
+            <input class="flexsearch-input" type="search" placeholder="Who's Matt? Click to find out his interests and the pgm languages he likes!">
+            <input class="flexsearch-submit" type="submit" value="&#10140;"/>
           </div>
-          <input class="flexsearch-submit" type="submit" value="&#10140;"/>
         </form>
       </div>
     </div>
-
-
+    <div>
+      <ul id="interests">
+        <LH id="showup1"></LH>
+        <li class="placeholder"><br></li>
+      </ul>
+      <ul id="programmingLanguages">
+        <LH id="showup2"></LH>
+        <li class="placeholder"><br></li>
+      </ul>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="assignment4.js"></script>
   </body>
